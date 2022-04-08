@@ -47,7 +47,6 @@ export function emptyTable(tableCallback, page, msg) {
     return 0; // 作为 total 的返回
 }
 
-// 通用二次确认窗
 /**
  * 通用二次确认窗
  * @param { string } message 提示信息

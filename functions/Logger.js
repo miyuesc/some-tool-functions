@@ -103,6 +103,4 @@ Log.prototype.getInstance = function () {
     return this.instance;
 };
 
-const logger = new Log();
-
-export default logger.getInstance();
+export default new Log().getInstance();
