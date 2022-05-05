@@ -1,0 +1,10 @@
+{
+  "name": "some-tool-functions",
+  "description": "一些常用的函数",
+  "version": "0.0.1",
+  "private": false,
+  "files": ["functions", "index.js"],
+  "main": "index.js",
+  "dependencies": {
+  }
+}
