@@ -1,0 +1,17 @@
+/* 平滑闪烁 */
+.linear-flicker {
+    /* 2s 一循环 */
+    animation: flicker 1s linear infinite;
+}
+
+/* 平滑闪烁 */
+.step-flicker {
+    /* 2s 一循环 */
+    animation: flicker 1s steps(1) infinite;
+}
+
+@keyframes flicker {
+    50% {
+        opacity: 0;
+    }
+}

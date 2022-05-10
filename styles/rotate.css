@@ -1,0 +1,8 @@
+.keep-rotating {
+    /* 1s 一圈*/
+    animation: rotate 1s linear infinite;
+}
+.keep-rotating_reverse {
+    /* 1s 一圈*/
+    animation: rotate 1s reverse linear infinite;
+}
